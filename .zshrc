@@ -44,3 +44,9 @@ export DYLD_LIBRARY_PATH=/usr/local/mysql/lib:$DYLD_LIBRARY_PATH
 # homebrew
 # ack
 # macvim
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+# Aliases
+alias fnd='find . -name'
+alias duh='du -h -depth=1'
